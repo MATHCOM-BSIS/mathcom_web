@@ -1,19 +1,22 @@
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navibar from './components/Navibar';
+import Footer from './components/footer';
+import Home from './pages/Home';
+import info from './pages/info';
+import "./App.css"
 
-function App() {
-
-  return (
-    <div className="App">
-      <div className = "black-nav">
-        <div>부산일과학고등학교 인공지능 동아리 - MATHCOM</div>
-      </div>
-      <header className="App-header">
-        <h1>
-          Hello
-        </h1>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+        <BrowserRouter>
+          <Navibar />
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/info" component={info}/>
+          </Switch>
+          <Footer />
+        </BrowserRouter>
+    );
+  }
 }
-
-export default App;
