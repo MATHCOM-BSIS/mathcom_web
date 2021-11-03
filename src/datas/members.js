@@ -17,12 +17,12 @@ const members = [
     github: "https://github.com/legenoary"
   },
   {
-    name: "누군가",
-    role: "보조 개발자",
-    description: "",
+    name: "박현아",
+    role: "동아리 맴버",
+    description: "동아리 맴버",
     img: no_image,
-    github: null
-  },
+    github: "https://github.com/nandarina7"
+  }},
   {
     name: "누군가",
     role: "아이디어 담당",
