@@ -12,7 +12,7 @@ const members = [
   {
     name: "이정준",
     role: "9기 동장 & 총괄",
-    description: "↙바보",
+    description: "↙바보+레게노아리아나그란데",
     img: no_image,
     github: "https://github.com/legenoary"
   },
@@ -24,8 +24,8 @@ const members = [
     github: "https://github.com/nandarina7"
   }},
   {
-    name: "누군가",
-    role: "아이디어 담당",
+    name: "박수민",
+    role: "아이디어+홍보 담당",
     description: "",
     img: no_image,
     github: null
