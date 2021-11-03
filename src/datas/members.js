@@ -31,8 +31,8 @@ const members = [
     github: null
   },
   {
-    name: "누군가",
-    role: "교육 담당",
+    name: "구나희",
+    role: "정신적 지주+일러스트레이터",
     description: "",
     img: no_image,
     github: null
