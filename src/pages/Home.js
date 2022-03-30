@@ -23,7 +23,7 @@ export default class Home extends Component {
                         {one.description}
                         </Card.Text>
                         {
-                        one.github && <Card.Link href={one.github} title="GitHub 링크" target="_blank">
+                        one.github && <Card.Link href={one.github} title="GitHub LINJK" target="_blank">
                             <FontAwesomeIcon icon={faGithub} size="lg" />
                         </Card.Link>
                         }
